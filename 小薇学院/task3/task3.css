@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: white; 
+	padding: 20px;
+}
+.content {
+	position: relative;
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #999;
+    min-width: 600px;
+    min-height: 600px;
+    height: all;
+    overflow: auto;
+}
+.left {
+	float: left;
+	background-color: white;      
+	width: 200px;  
+	height: 120px;
+	border: 1px solid #999;     
+}
+.right {
+    float: right;
+	background-color: white;
+	border: 1px solid #999;
+	width: 120px;  
+}
+.center {
+	position: absolute;  
+	background-color: white;
+	border: 1px solid #999;    
+	margin-left: 220px;
+	margin-right: 160px;
+}
+.left .logo {
+	background-color: #eee;
+	border: 1px solid #999;
+	width: 80px;
+	height: 80px;	
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.left .logo p {
+    margin-top: 20px;
+}
+.left .name {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.right .personal {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+.right .personal p {
+	text-align: center;
+	margin-top: 20px;
+}
+
