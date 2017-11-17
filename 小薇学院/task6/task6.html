@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title任务六：通过HTML及CSS模拟报纸排版</title>
+	<link rel="stylesheet" type="text/css" href="task6.css">
 </head>
 <body>
+	<div class="container">
 	<header>
 		<div class="logo">
 			<p>ife.baidu.com</p>
@@ -15,32 +17,36 @@
 		<article class="first">
 			<header>
 				<div class="left">
-					<img src="firstPicture.jpg">
-					<div class="first"></div>
-					<div class="second"></div>
+					<img src="images/pic1.png" alt="pic1">
+					<div class="cover-left"></div>
+					<div class="cover-right"></div>
 				</div>
 				<div class="right">
-					<p class="about"><span>A</span>BOUT</p>
-					<p class="technologe"><span>T</span>ECHNOLOGE</p>
-					<p class="aboutTechnologe">About technologe about technologe about technologe</P>
-					<p class="700">700</p>
-					<p class="3.2">3.2</p>
-					<p class="css">CSS</p>
-					<p class="cssc">cssssccsccscssc</p>
+					<p class="about">About</p>
+					<p class="about">Technologe</p>
+					<p class="aboutTechnologe">About technologe about technologe about technologe</p>
+					<p class="seven">700</p>
+					<div class="threeCss">
+						<p class="three">3.2</p>
+						<div class="css">
+							<p class="top">css</p>
+					        <p class="bottom">cssssccsccscssc</p>
+						</div>
+					</div>				
 				</div>
 			</header>
 			<div class="content">
 				<section class="first">
-					<h3>What</h3>
-					<p>端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前前端前端</p>
+					<p class="title">What</p>
+					<p class="content">端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前前端前端</p>
 				</section>
 				<section class="second">
-					<h3>When</h3>
-					<p>端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端</p>
+					<p class="title">When</p>
+					<p class="content">端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端端前端前端</p>
 				</section>
 				<section class="third">
-					<h3>How</h3>
-					<p>端前端前端前端前端<br>前端前端前端前端前端前<br>端前端前端端前</p>
+					<p class="title">How</p>
+					<p class="content">端前端前端前端前端<br>前端前端前端前端前端前<br>端前端前端端前</p>
 				</section>
 				<div class="last">
 					<p>What--------<span>40%</span></p>
@@ -52,38 +58,36 @@
 		<article class="second">
 			<div class="left">
 				<header>
-					<p><span>THE</span>TECHNOLOGE OF FRONT</p>
-					<p>前端技术领域</p>
+					<p class="top"><span>THE</span> TECHNOLOGE OF FRONT</p>
+					<p class="bottom">前端技术领域</p>
 				</header>
 				<div class="content">
 					<div>前</div>
-					<p>端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前。</p>
-					<p>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前</p>
-					<p>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前 </p>
+					<p>端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端<img src="images/pic3.png" alt="pic3">前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端端前端前。</p>
+					<p class="indent">端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端端前端前端前端前端前端前端</p>
+					<p class="indent">端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前</p>
+					
 				</div>
 			</div>
-			<div class="right">
-				<div class="top">
-					<img src="secondPicture.jpg">
-					<div class="foot">
-						<p><span>前端技术</span>前端技术前端技术</p>
-					</div>
+			<div class="right-top">
+				<img src="images/pic2.png" alt="pic2">
+				<div class="foot">
+					<p><span>前端技术</span>     前端技术前端技术</p>
 				</div>
 			</div>
-			<div class="bottom">
-				<p>前端前端前端前端前端前端...................前端</p>
-				<p>前端前端前端前端..........................前端前</p>
-				<p>前端前端前端前端前端前端前端.................前端</p>
+			<div class="right-bottom">
+				 <p class="font"><img src="images/triangle.png">前端前端前端前端前端前端......................<span>前端</span></p>
+				<p class="font"><img src="images/triangle.png">前端前端前端前端.............................<span>前端前</span></p>
+				<p class="font"><img src="images/triangle.png">前端前端前端前端前端前端前端..................<span>前端</span></p>
 				<div class="left">
 					<p>0</p>
 					<div>
-						<p class="first">ONE TWO</p>
-						<p class="second">THREE FORE FIVE</p>
-						<p class="third">hello world hello world hello world</p>
+						<p class="first">ONE TWO<br>THREE FORE FIVE</p>
+						<p class="second">hello world hello world hello world</p>
 					</div>
 				</div>
 				<div class="right">
-					<p><span>“</span>world hello world hello world hello world hello world hello world hello world hello world<span>”</span></p>
+					<p><span id="first">“</span>world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world<span id="second">”</span></p>
 				</div>
 			</div>
 		</article>
@@ -91,5 +95,6 @@
 	<footer>
 		<p>ife.baidu.com</p>
 	</footer>
+</div>
 </body>
 </html>
